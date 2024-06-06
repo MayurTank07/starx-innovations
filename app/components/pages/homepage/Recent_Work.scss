@@ -1,0 +1,105 @@
+@import '../../../globals.scss';
+
+#recent_work {
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: calc($small * .5);
+
+        .title {
+            text-align: center;
+        }
+
+        .project_canvas {
+            filter: grayscale(80%);
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+                filter: grayscale(0%);
+            }
+        }
+
+        .short_description {
+            text-align: center;
+        }
+
+        .detailed_description {
+            text-align: left;
+            display: flex;
+            align-self: flex-end;
+            background: linear-gradient(180deg, $indigo 0%, $magenta 100%);
+            background-size: 2px;
+            background-repeat: no-repeat;
+            padding-left: calc($small * .5);
+        }
+    }
+
+    .project_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: $small;
+    }
+
+    .technologies {
+        color: $white;
+        font-size: $button;
+        padding: calc($small * .25) 0;
+    }
+
+    div .heading {
+        margin: 0;
+    }
+
+    .div_1 {
+        grid-area: 3 / 3 / 4 / 13;
+    }
+
+    .div_2 {
+        grid-area: 3 / 13 / 4 / 23;
+    }
+
+    .div_3 {
+        grid-area: 5 / 8 / 6 / 18;
+        gap: $small;
+        padding-top: $large;
+        text-align: center;
+
+        .cta {
+            margin: auto;
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .div_1 {
+            grid-area: 3 / 3 / 4 / 15;
+        }
+
+        .div_2 {
+            grid-area: 4 / 3 / 5 / 15;
+            margin-top: calc($small * 2);
+        }
+
+        .div_3 {
+            grid-area: 5 / 3 / 6 / 15;
+            margin-top: calc($small * 2);
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .div_1 {
+            grid-area: 3 / 1 / 4 / 9;
+        }
+
+        .div_2 {
+            grid-area: 4 / 1 / 5 / 9;
+            margin-top: calc($small * 2);
+        }
+
+        .div_3 {
+            grid-area: 5 / 1 / 6 / 9;
+            margin-top: calc($small * 2);
+        }
+    }
+}

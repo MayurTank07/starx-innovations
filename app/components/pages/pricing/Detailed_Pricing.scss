@@ -1,0 +1,47 @@
+@import '../../../globals.scss';
+
+#pricing_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Centers all divs horizontally
+    padding: $large; // Add padding if necessary for spacing
+
+    .div {
+        margin-bottom: calc(#{$large} * 2);
+        width: 100%; // Ensure divs take full width available
+        max-width: 800px; // Set a max-width for better readability
+        padding: $large;
+        text-align: center; // Center the text within each div
+        border: 1px solid #ccc;
+        border-radius: $small;
+        background-color: #000000;
+
+        h3, h4 {
+            margin: $small 0;
+        }
+
+        .cta {
+            margin-top: $small;
+        }
+    }
+
+    .div_1, .div_2, .div_3, .div_4, .div_5, .div_6, .div_7 {
+        grid-area: auto / 4 / auto / 22;
+        text-align: center;
+    }
+
+    .div_10 {
+        order: 1; // Placing div_10 at the top
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            order: 2; // Placing div_10 after content in landscape mode
+        }
+
+        @media screen and (max-width: 767px) {
+            order: 1; // Placing div_10 at the top on small screens
+        }
+    }
+}
