@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Company = () => {
     return (
         <div className='company'>
-            <h4>STAR X INNOVATIONS</h4>
-            <p className='uppercase'>Company number: <Link href='' target='blank' className='link'>+91 91674 22024</Link></p>
+            <h4>STAR X INNOVATIONS AND IT SOLUTIONS</h4>
+            <p className='uppercase'> <Link href='' target='blank' className='link'></Link></p>
             <p className='uppercase'>Mumabi Subarban,maharashtra</p>
         </div>
     )

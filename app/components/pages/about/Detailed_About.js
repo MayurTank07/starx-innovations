@@ -15,59 +15,78 @@ const Detailed_About = () => {
             />
 
             <Paragraph
-                pText='Crafting Digital Artistry'
+                pText='Welcome to StarX Innovations and IT Solutions!'
                 className='subheading uppercase'
             />
 
             <div className='div div_1'>
                 <Heading_3
-                    h3Text='Hello there!'
+                    h3Text='Who We Are'
                     className='heading'
                 />
 
                 <Paragraph
-                    pText="At StarX Innovations and IT Solutions, we pride ourselves on being at the forefront of technological advancements and providing top-notch IT services. Our core mission is to build innovative projects that push the boundaries of what is possible in the IT industry. Additionally, we are dedicated to empowering the next generation of developers by offering comprehensive training in multiple programming languages."
+                    pText="At StarX, we are dedicated to pushing the boundaries of technology and innovation. Our mission is to empower individuals and businesses through cutting-edge projects, comprehensive programming training, and meaningful internships that pave the way for a successful career in the tech industry."
                     className='paragraph'
                 />
             </div>
 
             <div className='div div_2'>
-                <Paragraph
-                    pText="At StarX Innovations and IT Solutions, our values are the foundation of everything we do. They guide our actions, shape our culture, and drive our success. We are committed to:
+                <Heading_3
+                    h3Text='Our Services'
+                    className='heading'
+                />
 
-                    Innovation: We embrace creativity and strive to develop cutting-edge solutions that solve real-world problems.
-                    Excellence: We pursue the highest standards in all aspects of our work, from project development to training programs. Maintain a commitment to quality and excellence in every task and project.
-                    Continuous Learning: We believe in the power of education and the importance of staying current with technological advancements. Provide comprehensive training and learning opportunities for our team and clients.
-                    Integrity: We conduct our business with honesty and transparency, building trust with our clients and within our team. Uphold ethical practices and accountability in all our endeavors.
-                    Empowerment: We empower individuals to reach their full potential through mentorship, training, and hands-on experience. Support the professional growth and development of our trainees and interns.
-                    Customer Focus: We prioritize the needs and success of our clients, tailoring our solutions to meet their specific challenges. Deliver exceptional service and innovative solutions that drive client success.
-                    
-                    These values are integral to our mission and vision, guiding us as we continue to grow and make a positive impact in the tech industry. At StarX, we are dedicated to creating a future where technology and innovation lead to limitless possibilities.
-                    "
+                <Paragraph
+                    pText="Innovative Projects: We pride ourselves on our ability to conceptualize and execute groundbreaking projects that push the limits of what's possible. Whether it's developing sophisticated software, creating state-of-the-art applications, or pioneering new tech solutions, we are your go-to partner for innovation."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Programming Training: Knowledge is power, and we are committed to equipping you with the skills you need to excel in the tech world. Our programming training programs are designed to cater to all levels, from beginners to advanced learners. Our hands-on approach ensures that you gain practical experience and a deep understanding of various programming languages and technologies."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Internships: At StarX, we provide valuable internship opportunities that allow you to apply your knowledge in real-world scenarios. Our internships are crafted to give you a taste of the professional world, providing you with the experience and insights needed to jumpstart your career."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Completion Certificates: We recognize and celebrate your achievements. Upon successful completion of our training programs and internships, you will receive a prestigious certificate that validates your skills and dedication. Our certificates are a testament to your hard work and are highly regarded in the industry."
                     className='paragraph'
                 />
             </div>
 
             <div className='div div_3'>
+                <Heading_4
+                    h4Text='Why Choose StarX?'
+                />
+
                 <Paragraph
-                    pText="I'm all about creating experiences that resonate, building interfaces that engage, and pushing the digital envelope. If you're looking for someone who can take your digital presence to the next dimension, let's connect!"
+                    pText="Expert Team: Our team consists of experienced professionals who are leaders in their respective fields. Their knowledge and expertise are the backbone of our success."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Hands-On Learning: We believe in learning by doing. Our practical approach ensures that you not only learn the theory but also apply it effectively in real-world scenarios."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Industry Recognition: Our completion certificates are recognized and respected in the industry, giving you a competitive edge in the job market."
+                    className='paragraph'
+                />
+                <Paragraph
+                    pText="Commitment to Excellence: We are committed to delivering the highest quality in everything we do. From project development to training and internships, excellence is our standard."
                     className='paragraph'
                 />
             </div>
 
             <div className='div div_4'>
-                <Heading_4
-                    h4Text='Technologies We Master:'
-                />
-
                 <Paragraph
-                    pText="React.js, Next.js, React Three Fiber, Three.js, GLSL (OpenGL Shading Language), JavaScript, and a suite of design tools that keep my work sharp and your vision clearer."
+                    pText="Join us at StarX Innovations and IT Solutions and be a part of a community that is shaping the future of technology. Let's innovate, learn, and grow together."
                     className='paragraph'
                 />
             </div>
 
             <div className='div div_5'>
-            <Heading_4
+                <Heading_4
                     h4Text='Ready to Elevate Your Online Presence?'
                 />
 

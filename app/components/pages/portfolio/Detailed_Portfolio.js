@@ -6,19 +6,20 @@ const Detailed_Portfolio = () => {
     return (
         <section id='portfolio_page'>
             <Heading_2
-                h2Text='My Work, Your Inspiration'
+                h2Text='Our Programs'
                 className='heading uppercase'
             />
 
             <Paragraph
-                pText='A glimpse into a world where your ideas take digital form. Explore my portfolio of success stories'
+                pText=
+                        'At StarX Innovations and IT Solutions we offer a diverse range of programs designed to cater to the needs of aspiring tech professionals Whether youre just starting out or looking to advance your skills our comprehensive courses are designed to help you achieve your '
                 className='subheading uppercase'
             />
 
             <div className='courses'>
                 <div className='course'>
                     <Heading_2 h2Text='Advanced Web Development (AWD) Course' />
-                    <Paragraph pText='Price: ₹35,000' />
+                    <Paragraph pText='' />
                     <Paragraph pText="Course Overview: A comprehensive program in modern web development technologies and frameworks. Gain hands-on experience through industrial projects to build professional-grade web applications." />
                     <Heading_2 h2Text='What You Will Learn:' /><br></br>
                     <Paragraph pText='Frontend Development:' />
@@ -45,7 +46,7 @@ const Detailed_Portfolio = () => {
 
                 <div className='course'>
                     <Heading_2 h2Text='CCPJ Course (C, CPP, Java Course)' />
-                    <Paragraph pText='Price: ₹18,000' />
+                    <Paragraph pText='' />
                     <Paragraph pText="Course Overview: In-depth training in C, C++, and Java. Gain hands-on experience to tackle real-world programming challenges." />
                     <br></br><br></br><br></br><br></br><Heading_2 h2Text='What You Will Learn:' /><br></br>
                     <Paragraph pText='C Programming:' />
@@ -70,7 +71,7 @@ const Detailed_Portfolio = () => {
 
                 <div className='course'>
                     <Heading_2 h2Text='Android Development Course' />
-                    <Paragraph pText='Price: ₹20,000' />
+                    <Paragraph pText='' />
                     <Paragraph pText="Course Overview: In-depth training in mobile app development for the Android platform. Gain hands-on experience to build professional-grade Android applications." />
                     <br></br><br></br><br></br><Heading_2 h2Text='What You Will Learn:' /><br></br>
                     <Paragraph pText='Java Programming:' />

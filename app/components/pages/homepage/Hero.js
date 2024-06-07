@@ -34,7 +34,7 @@ const Hero = () => {
                 />
 
                 <Heading_2
-                    h2Text="INNOVATION AND IT SOLUTIONS"
+                    h2Text="INNOVATIONS AND IT SOLUTIONS"
                     className='heading_2'
                 />
 
