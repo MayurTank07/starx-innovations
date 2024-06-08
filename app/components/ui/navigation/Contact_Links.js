@@ -5,7 +5,7 @@ const Contact_Links = () => {
     return (
         <div className='contact_links'>
             <div className='contact us'>
-                <h4>CONTACT</h4>
+                <h4>CONTACT US</h4>
                 <Link href='' target='blank' className='link'>
                     +91 9167422024
                 </Link>

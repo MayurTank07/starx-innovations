@@ -107,11 +107,11 @@ const Detailed_Services = () => {
 
             <div className='div div_8'>
                 <Heading_4
-                    h4Text='Expertise: Our team consists of highly skilled professionals with extensive experience in various domains of IT and innovation.'
+                    h4Text= ' Our team consists of highly skilled professionals with extensive experience in various domains of IT and innovation.'
                 />
 
                 <Paragraph
-                    pText="Customization: We understand that each client is unique, and we tailor our solutions to meet your specific requirements.
+                    pText=" We understand that each client is unique, and we tailor our solutions to meet your specific requirements.
 
                      Innovation: We are committed to staying at the forefront of technology, continuously exploring new ideas and approaches to deliver the best possible outcomes.
                     - Education:We believe in the power of knowledge and are dedicated to providing top-notch training and internship programs that help individuals achieve their career goals.
@@ -131,7 +131,7 @@ const Detailed_Services = () => {
 
                 <Route_Change href='/contact'>
                     <Button
-                        buttonText='Concact Me Today!'
+                        buttonText='Contact Me Today!'
                         className='button'
                     />
                 </Route_Change>

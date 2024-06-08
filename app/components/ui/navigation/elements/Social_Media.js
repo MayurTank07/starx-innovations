@@ -10,13 +10,13 @@ const Social_Media = () => {
             <Link href='https://www.facebook.com/people/' target='blank'>
                 <p className='uppercase light_grey'>Facebook</p>
             </Link>
-            <Link href='https://www.instagram.com/_i_am_mayur_tank_/' target='blank'>
+            <Link href='https://www.instagram.com/starx.innovations/' target='blank'>
                 <p className='uppercase light_grey'>Instagram</p>
             </Link>
             <Link href='https://twitter.com/' target='blank'>
-                <p className='uppercase light_grey'>Twitter</p>
+                <p className='uppercase light_grey'></p>
             </Link>
-            <Link href='#https://github.com/MayurTank07' target='blank'>
+            <Link href='https://github.com/MayurTank07' target='blank'>
                 <p className='uppercase light_grey'>GitHub</p>
             </Link>
         </div>

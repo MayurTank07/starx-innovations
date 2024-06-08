@@ -8,9 +8,9 @@ import Homepage_Loader_Wrapper from './components/ui/loaders/Homepage_Loader_Wra
 import Animation_Wrapper from './components/ui/transitions/Animation_Wrapper'
 
 export const metadata = {
-	title: 'starx',
+	title: 'STARX INNOVATIONS',
 	description:
-		'YAAHA KA CONTENT CHAHIYE',
+		'',
 }
 
 export default function RootLayout({ children }) {

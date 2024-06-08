@@ -1,10 +1,11 @@
-import './Detailed_About.scss'
-import Heading_2 from '../../ui/headings/Heading_2'
-import Heading_3 from '../../ui/headings/Heading_3'
-import Heading_4 from '../../ui/headings/Heading_4'
-import Paragraph from '../../ui/paragraphs/Paragraph'
-import Route_Change from '../../ui/transitions/Route_Change'
-import Button from '../../ui/buttons/Button'
+import React from 'react';
+import './Detailed_About.scss';
+import Heading_2 from '../../ui/headings/Heading_2';
+import Heading_3 from '../../ui/headings/Heading_3';
+import Heading_4 from '../../ui/headings/Heading_4';
+import Paragraph from '../../ui/paragraphs/Paragraph';
+import Route_Change from '../../ui/transitions/Route_Change';
+import Button from '../../ui/buttons/Button';
 
 const Detailed_About = () => {
     return (
@@ -29,10 +30,10 @@ const Detailed_About = () => {
                     pText="At StarX, we are dedicated to pushing the boundaries of technology and innovation. Our mission is to empower individuals and businesses through cutting-edge projects, comprehensive programming training, and meaningful internships that pave the way for a successful career in the tech industry."
                     className='paragraph'
                 />
-            </div>
+            </div> <br></br>
 
             <div className='div div_2'>
-                <Heading_3
+                <br></br> <br></br><Heading_3
                     h3Text='Our Services'
                     className='heading'
                 />
@@ -53,25 +54,25 @@ const Detailed_About = () => {
                     pText="Completion Certificates: We recognize and celebrate your achievements. Upon successful completion of our training programs and internships, you will receive a prestigious certificate that validates your skills and dedication. Our certificates are a testament to your hard work and are highly regarded in the industry."
                     className='paragraph'
                 />
-            </div>
+            </div> <br></br>
 
             <div className='div div_3'>
-                <Heading_4
+                <br></br><Heading_4
                     h4Text='Why Choose StarX?'
                 />
 
                 <Paragraph
-                    pText="Expert Team: Our team consists of experienced professionals who are leaders in their respective fields. Their knowledge and expertise are the backbone of our success."
+                    pText="Expert Team:  Our team consists of experienced professionals who are leaders in their respective fields. Their knowledge and expertise are the backbone of our success."
                     className='paragraph'
-                />
+                /> <br></br>
                 <Paragraph
                     pText="Hands-On Learning: We believe in learning by doing. Our practical approach ensures that you not only learn the theory but also apply it effectively in real-world scenarios."
                     className='paragraph'
-                />
+                /> <br></br>
                 <Paragraph
                     pText="Industry Recognition: Our completion certificates are recognized and respected in the industry, giving you a competitive edge in the job market."
                     className='paragraph'
-                />
+                /> <br></br>
                 <Paragraph
                     pText="Commitment to Excellence: We are committed to delivering the highest quality in everything we do. From project development to training and internships, excellence is our standard."
                     className='paragraph'
@@ -101,8 +102,20 @@ const Detailed_About = () => {
                     />
                 </Route_Change>
             </div>
-        </section>
-    )
-}
 
-export default Detailed_About
+            {/* Add images here */}
+            <div className='image-container'>
+                {/* Use the Image component */}
+                <img
+                    src="/images/IAF LOGO.SVG"
+                    alt='Image 1'
+                    className='about-image landscape-image'
+                    height={400}
+                    width={500} // Specify the width in pixels
+                />
+            </div>
+        </section>
+    );
+};
+
+export default Detailed_About;

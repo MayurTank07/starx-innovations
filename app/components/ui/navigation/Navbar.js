@@ -59,10 +59,10 @@ const Navbar = () => {
 
                 <div className='desktop_links'>
                     <Route_Change href='/services'><p>Services</p></Route_Change>
-                    <Route_Change href='/portfolio'><p>Courses</p></Route_Change>
+                    <Route_Change href='/portfolio'><p>Programs</p></Route_Change>
                     <Route_Change href='/process'><p>Process</p></Route_Change>
                     <Route_Change href='/about'><p>About</p></Route_Change>
-                    <Route_Change href='/pricing'><p>Pricing</p></Route_Change>
+                    <Route_Change href='/pricing'><p>Courses</p></Route_Change>
                     <Route_Change href='/faq'><p>FAQ</p></Route_Change>
 
                     <Route_Change href='/contact' className='cta'>
