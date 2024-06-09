@@ -20,7 +20,7 @@ const Services_Overview = () => {
 
             <div className='overlay div div_1'>
                 <div className='text'>
-                    <h4>Project Development(review)<abbr className='indigo'>⇀</abbr></h4>
+                    <h4>Project Development<abbr className='indigo'>⇀</abbr></h4>
                     <Paragraph
                         pText='From conception to execution, we specialize in delivering innovative IT projects tailored to your specific needs. Our seasoned team ensures every project is meticulously crafted, leveraging cutting-edge technology to drive efficiency and success.'
                     />

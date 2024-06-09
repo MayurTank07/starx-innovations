@@ -11,7 +11,7 @@ const Detailed_Services = () => {
     return (
         <section id='services_page'>
             <Heading_2
-                h2Text='CLASSES JUST FOR YOU'
+                h2Text='SERVICES JUST CURATED FOR YOU'
                 className='heading uppercase'
             />
 
@@ -29,7 +29,7 @@ const Detailed_Services = () => {
                 />
 
                 <Heading_3
-                    h3Text='Innovative Project Development:'
+                    h3Text='Innovative Project Development'
                 />
             </div>
 
@@ -53,7 +53,7 @@ const Detailed_Services = () => {
                 />
 
                 <Heading_3
-                    h3Text='Programming Training:'
+                    h3Text='Programming Training'
                 />
             </div>
 
@@ -101,7 +101,7 @@ const Detailed_Services = () => {
                 />
 
                 <Heading_3
-                    h3Text='Why Choose Us:'
+                    h3Text='Why Choose Us'
                 />
             </div>
 

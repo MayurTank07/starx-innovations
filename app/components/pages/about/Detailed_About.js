@@ -19,21 +19,22 @@ const Detailed_About = () => {
                 pText='Welcome to StarX Innovations and IT Solutions!'
                 className='subheading uppercase'
             />
-
             <div className='div div_1'>
+            
                 <Heading_3
                     h3Text='Who We Are'
                     className='heading'
                 />
 
                 <Paragraph
-                    pText="At StarX, we are dedicated to pushing the boundaries of technology and innovation. Our mission is to empower individuals and businesses through cutting-edge projects, comprehensive programming training, and meaningful internships that pave the way for a successful career in the tech industry."
+                     pText="At StarX Innovations and IT Solutions, we are dedicated to driving technological advancement and providing top-tier IT services. As an MSME registered and ISO IAF certified company, we pride ourselves on our commitment to excellence, quality, and innovation."
                     className='paragraph'
                 />
-            </div> <br></br>
+               
+            </div> <br></br><br></br><br></br>
 
             <div className='div div_2'>
-                <br></br> <br></br><Heading_3
+                <br></br> <br></br><br></br><br></br><Heading_3
                     h3Text='Our Services'
                     className='heading'
                 />
@@ -102,18 +103,9 @@ const Detailed_About = () => {
                     />
                 </Route_Change>
             </div>
-
+           
             {/* Add images here */}
-            <div className='image-container'>
-                {/* Use the Image component */}
-                <img
-                    src="/images/IAF LOGO.SVG"
-                    alt='Image 1'
-                    className='about-image landscape-image'
-                    height={400}
-                    width={500} // Specify the width in pixels
-                />
-            </div>
+         
         </section>
     );
 };
