@@ -21,7 +21,7 @@ const Detailed_Services = () => {
             {/* Python Programming Course */}
             <div className='div div_1'>
                 <Heading_3 h3Text="Python Programming Course" />
-                <Paragraph pText=": KNOW MORE" />
+                <Paragraph pText="" />
                 <Paragraph pText=" Our Python Programming Course is meticulously designed to take you from a beginner to an advanced level in Python programming. Whether you are new to programming or looking to add Python to your skill set, this course provides the knowledge and practical experience you need to excel. Python is known for its simplicity and versatility, making it a popular choice for various applications including web development, data analysis, artificial intelligence, and more." />
             </div>
 
