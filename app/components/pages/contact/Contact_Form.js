@@ -7,7 +7,7 @@ const Contact_Form = () => {
     const [formState, setFormState] = useState({
         name: '',
         email: '',
-        company: '',
+        phone: '',  // Added phone to formState
         message: ''
     })
 
@@ -21,9 +21,9 @@ const Contact_Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        const { name, email, company, message } = formState;
+        const { name, email, phone, message } = formState;
 
-        const mailtoUrl = `mailto:starxinnovation@gmail.com?subject=New Form Submission&body=Name: ${name}%0D%0AEmail: ${email}%0D%0ACompany: ${company}%0D%0AMessage: ${message}`;
+        const mailtoUrl = `mailto:starxinnovation@gmail.com?subject=New Form Submission&body=Name: ${name}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0AMessage: ${message}`;
 
         window.location.href = mailtoUrl;
     }
@@ -51,17 +51,17 @@ const Contact_Form = () => {
 
                 <input
                     type='tel'
-                    name='company'
-                    value={formState.company}
+                    name='phone'  // Added name attribute
+                    value={formState.phone}
                     onChange={handleInputChange}
-                    placeholder='Company Name (Optional)'
+                    placeholder='Phone No'
                 />
 
                 <textarea
                     name='message'
                     value={formState.message}
                     onChange={handleInputChange}
-                    placeholder='Project Details'
+                    placeholder='Your Query...'
                     required
                 />
 

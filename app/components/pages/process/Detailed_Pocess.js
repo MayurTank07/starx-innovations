@@ -16,7 +16,7 @@ const Detailed_Pocess = () => {
             />
 
             <Paragraph
-                pText='Discover my step-by-step approach that turns your vision into reality with precision and care'
+                pText='Discover our step-by-step approach that turns your vision into reality with precision and care'
                 className='subheading uppercase'
             />
 
@@ -40,7 +40,7 @@ const Detailed_Pocess = () => {
                 />
 
                 <Paragraph
-                    pText="You tell me what you need, and I'll listen—no tech jargon, just a straightforward talk about what you want your website to do."
+                    pText="You tell us what you need, and we'll listen—no tech jargon, just a straightforward talk about what you want your website to do."
                     className='lined_paragraph'
                 />
             </div>
@@ -61,11 +61,11 @@ const Detailed_Pocess = () => {
 
             <div className='div div_4'>
                 <Heading_4
-                    h4Text='Then, I design'
+                    h4Text='Then, we design'
                 />
 
                 <Paragraph
-                    pText="I'll draw up a plan for your site that's easy to understand. You'll see exactly what I'm building for you, with clear, simple designs that show how everything works."
+                    pText="We'll draw up a plan for your site that's easy to understand. You'll see exactly what we're building for you, with clear, simple designs that show how everything works."
                     className='lined_paragraph'
                 />
             </div>
@@ -86,11 +86,11 @@ const Detailed_Pocess = () => {
 
             <div className='div div_6'>
                 <Heading_4
-                    h4Text='Next, I build'
+                    h4Text='Next, we build'
                 />
 
                 <Paragraph
-                    pText="This is where I roll up my sleeves and turn our plan into a real website. I'll keep you updated, so you always know what's happening."
+                    pText="This is where we roll up our sleeves and turn our plan into a real website. We'll keep you updated, so you always know what's happening."
                     className='lined_paragraph'
                 />
             </div>
@@ -115,7 +115,7 @@ const Detailed_Pocess = () => {
                 />
 
                 <Paragraph
-                    pText=" When your site is ready to show off, we'll push the button together. And I'll be there to make sure everything runs smoothly, from the first visitor to the hundredth."
+                    pText="When your site is ready to show off, we'll push the button together. And we'll be there to make sure everything runs smoothly, from the first visitor to the hundredth."
                     className='lined_paragraph'
                 />
             </div>
@@ -140,12 +140,12 @@ const Detailed_Pocess = () => {
                 />
 
                 <Paragraph
-                    pText="A website needs care to stay great. I stick around to update, tweak, and make sure your site keeps up with your business as it grows."
+                    pText="A website needs care to stay great. We stick around to update, tweak, and make sure your site keeps up with your business as it grows."
                     className='lined_paragraph'
                 />
             </div>
 
-            {/* Why Choose Me? */}
+            {/* Why Choose Us? */}
             <div className='div div_11'>
                 <img
                     src='/images/process/question.webp'
@@ -155,17 +155,17 @@ const Detailed_Pocess = () => {
                 />
 
                 <Heading_3
-                    h3Text='Why Choose Me?'
+                    h3Text='Why Choose Us?'
                 />
             </div>
 
             <div className='div div_12'>
                 <Heading_4
-                    h4Text="I'm your digital craftsman"
+                    h4Text="We're your digital craftsmen"
                 />
 
                 <Paragraph
-                    pText="When you work with me, you get a partner who cares about your success as much as you do."
+                    pText="When you work with us, you get partners who care about your success as much as you do."
                     className='lined_paragraph'
                 />
             </div>

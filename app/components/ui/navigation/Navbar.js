@@ -105,7 +105,7 @@ const Navbar = () => {
                         </Route_Change>
 
                         <Route_Change href='/portfolio'>
-                            <h1 onClick={handleHamburgerClick}>Courses</h1>
+                            <h1 onClick={handleHamburgerClick}>Program</h1>
                         </Route_Change>
                         
                         <Route_Change href='/process'>
@@ -118,7 +118,7 @@ const Navbar = () => {
                         </Route_Change>
 
                         <Route_Change href='/pricing'>
-                            <h1 onClick={handleHamburgerClick}>Pricing</h1>
+                            <h1 onClick={handleHamburgerClick}>Courses</h1>
                         </Route_Change>
 
                         <Route_Change href='/faq'>

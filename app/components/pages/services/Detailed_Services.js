@@ -126,7 +126,7 @@ const Detailed_Services = () => {
                 />
 
                 <Paragraph
-                    pText='Embark on a journey of digital transformation that sets your brand apart. Get in touch today to explore how my bespoke web services can elevate your online presence.'
+                    pText='Embark on a journey of digital transformation that sets your brand apart. Get in touch today to explore how my  web services can elevate your online presence.'
                 />
 
                 <Route_Change href='/contact'>
