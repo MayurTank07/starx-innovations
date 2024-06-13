@@ -23,8 +23,8 @@ const Detailed_About = () => {
             <div className='div div_1'>
                 <div className='div div_1'>
                     <img
-                        src='/images/IAF LOGO.SVG'
-                        alt='Senior Developer'
+                        src='/images/IAF LOGO.png'
+                        alt='LOGOS'
                         width={600}
                         height={700}
                     />
@@ -134,13 +134,13 @@ const Detailed_About = () => {
                 />
             </div>
 
-{/*                     
+                    
              <div className='div div_7'>
                 <img
                     src='/images/process/NAVISH.webp'
                     alt='Senior Developer'
-                    width={500}
-                    height={500}
+                    width={700}
+                    height={700}
                 />
             </div>
             <div className='div div_7'>
@@ -152,7 +152,7 @@ const Detailed_About = () => {
                     pText="Navish Ansari is the Senior Developer at StarX Innovations and IT Solutions. With extensive experience in web development and cyber-security a keen eye for detail, he has been instrumental in delivering high-quality software solutions and leading our development team to success."
                     className='paragraph'
                 />
-            </div>  */}
+            </div>  
         </section>
     );
 };
