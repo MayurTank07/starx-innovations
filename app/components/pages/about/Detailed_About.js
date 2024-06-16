@@ -115,7 +115,7 @@ const Detailed_About = () => {
                 </Route_Change>
             </div>
 
-            <div className='div div_6'>
+                     {/* <div className='div div_6'>
                 <img
                     src='/images/process/MAYUR.webp'
                     alt='Consultation'
@@ -152,7 +152,7 @@ const Detailed_About = () => {
                     pText="Navish Ansari is the Senior Developer at StarX Innovations and IT Solutions. With extensive experience in web development and cyber-security a keen eye for detail, he has been instrumental in delivering high-quality software solutions and leading our development team to success."
                     className='paragraph'
                 />
-            </div>  
+            </div>   */}
         </section>
     );
 };
