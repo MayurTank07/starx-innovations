@@ -23,7 +23,7 @@ const Detailed_About = () => {
             <div className='div div_1'>
                 <div className='div div_1'>
                     <img
-                        src='/images/IAF LOGO.png'
+                        src='public/images/IAF LOGO.png'
                         alt='LOGOS'
                         width={600}
                         height={700}
