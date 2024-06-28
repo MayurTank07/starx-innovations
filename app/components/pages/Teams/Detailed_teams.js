@@ -1,4 +1,4 @@
-import './Detailed_Teams.scss'
+import './Detailed_teams.scss'
 import Heading_2 from '../../ui/headings/Heading_2'
 import Heading_3 from '../../ui/headings/Heading_3'
 import Heading_4 from '../../ui/headings/Heading_4'
