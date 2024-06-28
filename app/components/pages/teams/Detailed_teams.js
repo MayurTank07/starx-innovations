@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Route_Change from '../../ui/transitions/Route_Change'
 import Button from '../../ui/buttons/Button'
 
-const Detailed_Teams = () => {
+const Detailed_teams = () => {
     return (
         <section id='process_page'>
             <Heading_2
@@ -115,4 +115,4 @@ const Detailed_Teams = () => {
     )
 }
 
-export default Detailed_Teams
+export default Detailed_teams
