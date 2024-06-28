@@ -64,6 +64,7 @@ const Navbar = () => {
                     <Route_Change href='/about'><p>About</p></Route_Change>
                     <Route_Change href='/pricing'><p>Courses</p></Route_Change>
                     <Route_Change href='/faq'><p>FAQ</p></Route_Change>
+                    <Route_Change href='/Teams'><p>Teams</p></Route_Change>
 
                     <Route_Change href='/contact' className='cta'>
                         <Button
@@ -123,6 +124,10 @@ const Navbar = () => {
 
                         <Route_Change href='/faq'>
                             <h1 onClick={handleHamburgerClick}>FAQ</h1>
+                        </Route_Change>
+
+                        <Route_Change href='/Teams'>
+                            <h1 onClick={handleHamburgerClick}>Teams</h1>
                         </Route_Change>
 
                         <Route_Change href='/contact' className='cta' onClick={handleHamburgerClick}>

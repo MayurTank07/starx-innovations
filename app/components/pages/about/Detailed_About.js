@@ -14,34 +14,30 @@ const Detailed_About = () => {
                 h2Text='About Us'
                 className='heading uppercase'
             />
-
             <Paragraph
                 pText='Welcome to StarX Innovations and IT Solutions!'
                 className='subheading uppercase'
             />
 
+            {/* Existing Content */}
             <div className='div div_1'>
-                <div className='div div_1'>
-                    <img
-                        src='/images/IAFLogo.png'
-                        alt='LOGO'
-                        width={600}
-                        height={700}
-                    />
-                </div> 
+                <img
+                    src='/images/IAF LOGO.png'
+                    alt='LOGOS'
+                    width={600}
+                    height={700}
+                />
                 <br /><br />
                 <Heading_3
                     h3Text='Who We Are'
                     className='heading'
                 />
-
                 <Paragraph
                     pText="At StarX Innovations and IT Solutions, we are dedicated to driving technological advancement and providing top-tier IT services. As an MSME registered and ISO IAF certified company, we pride ourselves on our commitment to excellence, quality, and innovation."
                     className='paragraph'
                 />
             </div>
             <br /><br /><br />
-
             <div className='div div_2'>
                 <br /><br /><br /><br />
                 <Heading_3
@@ -64,9 +60,9 @@ const Detailed_About = () => {
                     pText="Completion Certificates: We recognize and celebrate your achievements. Upon successful completion of our training programs and internships, you will receive a prestigious certificate that validates your skills and dedication. Our certificates are a testament to your hard work and are highly regarded in the industry."
                     className='paragraph'
                 />
+              
             </div>
             <br />
-
             <div className='div div_3'>
                 <br />
                 <Heading_4
@@ -91,15 +87,14 @@ const Detailed_About = () => {
                     pText="Commitment to Excellence: We are committed to delivering the highest quality in everything we do. From project development to training and internships, excellence is our standard."
                     className='paragraph'
                 />
+             
             </div>
-
             <div className='div div_4'>
                 <Paragraph
                     pText="Join us at StarX Innovations and IT Solutions and be a part of a community that is shaping the future of technology. Let's innovate, learn, and grow together."
                     className='paragraph'
                 />
             </div>
-
             <div className='div div_5'>
                 <Heading_4
                     h4Text='Ready to Elevate Your Online Presence?'
@@ -113,46 +108,13 @@ const Detailed_About = () => {
                         className='button'
                     />
                 </Route_Change>
+              
             </div>
 
-                     {/* <div className='div div_6'>
-                <img
-                    src='/images/process/MAYUR.webp'
-                    alt='Consultation'
-                    width={500}
-                    height={500}
-                />
-            </div> 
-            <div className='div div_6'>
-                <br /><br /><br /><br /><br /><br />
-                <Heading_4
-                    h4Text='CEO & Founder'
-                />
-                <Paragraph
-                    pText="Mayur Tank is the Founder and CEO of StarX Innovations and IT Solutions. I'm proud to lead a team dedicated to building innovative projects, offering top-notch programming training, and providing hands-on internships. Our mission is to drive technological advancements and empower the next generation of tech leaders. Join us on a journey of innovation and excellence."
-                    className='paragraph'
-                />
-            </div>
 
                     
-             <div className='div div_7'>
-                <img
-                    src='/images/process/NAVISH.webp'
-                    alt='Senior Developer'
-                    width={700}
-                    height={700}
-                />
-            </div>
-            <div className='div div_7'>
-                <br /><br /><br /><br /><br /><br />
-                <Heading_4
-                    h4Text='Senior Developer'
-                />
-                <Paragraph
-                    pText="Navish Ansari is the Senior Developer at StarX Innovations and IT Solutions. With extensive experience in web development and cyber-security a keen eye for detail, he has been instrumental in delivering high-quality software solutions and leading our development team to success."
-                    className='paragraph'
-                />
-            </div>   */}
+           
+              
         </section>
     );
 };

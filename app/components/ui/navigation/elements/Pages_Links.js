@@ -18,12 +18,16 @@ const Pages_Links = () => {
                 </Route_Change>
 
             <Route_Change href='/portfolio'>
-                <p className='uppercase light_grey'>courses
+                <p className='uppercase light_grey'>Courses
                 </p>
             </Route_Change>
 
             <Route_Change href='/faq'>
                 <p className='uppercase light_grey'>FAQ</p>
+            </Route_Change>
+
+            <Route_Change href='/teams'>
+                <p className='uppercase light_grey'>Teams</p>
             </Route_Change>
         </div>
     )
