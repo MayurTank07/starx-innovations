@@ -22,8 +22,8 @@ const Detailed_About = () => {
             {/* Existing Content */}
             <div className='div div_1'>
                 <img
-                    src='/images/IAFLOGO.png'
-                    alt='LOGOS'
+                    src='/images/IAFLogo.png'
+                    alt='LO'
                     width={600}
                     height={700}
                 />
