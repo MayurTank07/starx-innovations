@@ -126,7 +126,7 @@ const Navbar = () => {
                             <h1 onClick={handleHamburgerClick}>FAQ</h1>
                         </Route_Change>
 
-                        <Route_Change href='/Teams'>
+                        <Route_Change href='/teams'>
                             <h1 onClick={handleHamburgerClick}>Teams</h1>
                         </Route_Change>
 
