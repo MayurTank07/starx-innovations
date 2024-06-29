@@ -24,7 +24,7 @@ const Detailed_teams = () => {
             <div className='div div_1'>
                 <img
                     src='/images/process/MAYUR.png'
-                    alt='MAYURRR'
+                    alt='MAYUR'
                     width={500}
                     height={500}
                     
