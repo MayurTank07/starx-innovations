@@ -64,7 +64,7 @@ const Navbar = () => {
                     <Route_Change href='/about'><p>About</p></Route_Change>
                     <Route_Change href='/pricing'><p>Courses</p></Route_Change>
                     <Route_Change href='/faq'><p>FAQ</p></Route_Change>
-                    <Route_Change href='/Teams'><p>Teams</p></Route_Change>
+                    <Route_Change href='/teams'><p>Teams</p></Route_Change>
 
                     <Route_Change href='/contact' className='cta'>
                         <Button
