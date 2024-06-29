@@ -23,7 +23,7 @@ const Detailed_teams = () => {
             {/* Let's Talk */}
             <div className='div div_1'>
                 <img
-                    src='/images/process/MAYUR.WEBP'
+                    src='/images/process/MAYUR.png'
                     alt='MAYURRR'
                     width={500}
                     height={500}
