@@ -87,7 +87,7 @@ const Detailed_teams = () => {
 
             <div className='div div_6'>
                 <Heading_4
-                    h4Text='Secretary and Graphic Designer'
+                    h4Text='HEAD OF MARKETING EXECUTIVE'
                 />
 
                 <Paragraph
